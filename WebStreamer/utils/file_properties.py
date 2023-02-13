@@ -76,7 +76,7 @@ def get_name(media_msg: Message | FileId) -> str:
             media_type = "file"
 
         formats = {
-            "photo": "jpg", "audio": "mp3", "voice": "ogg",
+            "photo": "jpg", "audio": "mp3",
             "video": "mp4", "animation": "mp4", "video_note": "mp4",
             "sticker": "webp"
         }
